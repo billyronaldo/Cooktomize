@@ -15,6 +15,7 @@
 		ECBD23C61F974C1C001FE9DE /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C41F974C1C001FE9DE /* Categories.storyboard */; };
 		ECBD23C81F974C44001FE9DE /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C71F974C44001FE9DE /* Home.storyboard */; };
 		ECBD23CB1F975589001FE9DE /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C91F975589001FE9DE /* Cart.storyboard */; };
+		ECBD23CD1F975B84001FE9DE /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23CC1F975B84001FE9DE /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ECBD23C51F974C1C001FE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Categories.storyboard; sourceTree = "<group>"; };
 		ECBD23C71F974C44001FE9DE /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		ECBD23CA1F975589001FE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cart.storyboard; sourceTree = "<group>"; };
+		ECBD23CC1F975B84001FE9DE /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				ECBD23B21F974545001FE9DE /* AppDelegate.swift */,
 				ECBD23B41F974545001FE9DE /* ViewController.swift */,
 				ECBD23B61F974545001FE9DE /* Main.storyboard */,
+				ECBD23CC1F975B84001FE9DE /* Profile.storyboard */,
 				ECBD23C91F975589001FE9DE /* Cart.storyboard */,
 				ECBD23C71F974C44001FE9DE /* Home.storyboard */,
 				ECBD23C41F974C1C001FE9DE /* Categories.storyboard */,
@@ -137,6 +140,7 @@
 				ECBD23BA1F974545001FE9DE /* Assets.xcassets in Resources */,
 				ECBD23C61F974C1C001FE9DE /* Categories.storyboard in Resources */,
 				ECBD23CB1F975589001FE9DE /* Cart.storyboard in Resources */,
+				ECBD23CD1F975B84001FE9DE /* Profile.storyboard in Resources */,
 				ECBD23B81F974545001FE9DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

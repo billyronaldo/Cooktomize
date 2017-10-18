@@ -6,28 +6,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
-        <scene sceneID="dAe-Ye-K4y">
-            <objects>
-                <tabBarController id="4Ki-ca-s4Z" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="yGv-tk-fvO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="x8C-hX-QyZ" kind="relationship" relationship="viewControllers" id="26G-B2-dGU"/>
-                        <segue destination="SVR-5d-ep3" kind="relationship" relationship="viewControllers" id="YjZ-iP-A1o"/>
-                        <segue destination="KwD-68-cvS" kind="relationship" relationship="viewControllers" id="dck-mj-yfn"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qSf-Tb-QuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="166" y="361"/>
-        </scene>
         <!--Categories-->
         <scene sceneID="NVa-6y-U1o">
             <objects>
