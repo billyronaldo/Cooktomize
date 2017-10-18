@@ -14,6 +14,7 @@
 		ECBD23BD1F974545001FE9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23BB1F974545001FE9DE /* LaunchScreen.storyboard */; };
 		ECBD23C61F974C1C001FE9DE /* Categories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C41F974C1C001FE9DE /* Categories.storyboard */; };
 		ECBD23C81F974C44001FE9DE /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C71F974C44001FE9DE /* Home.storyboard */; };
+		ECBD23CB1F975589001FE9DE /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBD23C91F975589001FE9DE /* Cart.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ECBD23BE1F974545001FE9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECBD23C51F974C1C001FE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Categories.storyboard; sourceTree = "<group>"; };
 		ECBD23C71F974C44001FE9DE /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		ECBD23CA1F975589001FE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Cart.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				ECBD23B21F974545001FE9DE /* AppDelegate.swift */,
 				ECBD23B41F974545001FE9DE /* ViewController.swift */,
 				ECBD23B61F974545001FE9DE /* Main.storyboard */,
+				ECBD23C91F975589001FE9DE /* Cart.storyboard */,
 				ECBD23C71F974C44001FE9DE /* Home.storyboard */,
 				ECBD23C41F974C1C001FE9DE /* Categories.storyboard */,
 				ECBD23B91F974545001FE9DE /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 				ECBD23C81F974C44001FE9DE /* Home.storyboard in Resources */,
 				ECBD23BA1F974545001FE9DE /* Assets.xcassets in Resources */,
 				ECBD23C61F974C1C001FE9DE /* Categories.storyboard in Resources */,
+				ECBD23CB1F975589001FE9DE /* Cart.storyboard in Resources */,
 				ECBD23B81F974545001FE9DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +178,14 @@
 				ECBD23C51F974C1C001FE9DE /* Base */,
 			);
 			name = Categories.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBD23C91F975589001FE9DE /* Cart.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBD23CA1F975589001FE9DE /* Base */,
+			);
+			name = Cart.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
